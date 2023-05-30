@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* login & SignUp */
+
+.bg1 {
+    width: 100%;
+}
+
+.title{
+    margin-top: 65px;
+}
+
+.title h2{
+    font-family:'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff; 
+}
+
+.title p{
+  font-family:'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+form {
+    width: 100%;
+}
+
+.input-field {
+    margin-bottom: 35px;
+    top: 15px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+option {
+    color: #000;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    cursor: text;
+    color: #fff;
+    transition: 0.2s;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.icon {
+    position: relative;
+    color: #fff;
+}
+
+input:focus~label,input:valid~label, textarea:focus~label, textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-field {
+    flex-basis: 48%;
+}
+
+
+.no-account-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .no-account-text a {
+    text-decoration: none;
+}
+
+.primary-color {
+    color: #e7b92f;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.primary-color:hover{
+    color: #241a46;
+    font-weight: 600;
+}
+
+
+/* SignUp */
+
+.hidden-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+  
+input#date::-webkit-input-placeholder { /* WebKit browsers */
+    margin-left: 20px;
+    color: yellow;
+  }
+  input#date:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    margin-left: 20px;
+    color: yellow;
+  }
+  input#date::-moz-placeholder { /* Mozilla Firefox 19+ */
+    margin-left: 20px;
+    color: yellow;
+  }
+  input#date:-ms-input-placeholder { /* Internet Explorer 10+ */
+    margin-left: 20px;
+    color: yellow;
+  }
+
+/* EventDetails */
+  
+.detail-box {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    height: auto;
+}
+
+.details-image img {
+    padding-top: 20px;
+    padding-left: 130px;
+    width: 90%;
+    height: 406px;
+}
+
+.booking-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.booking-details h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button-ok {
+    margin-left: 20%;
+}

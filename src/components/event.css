@@ -1,0 +1,29 @@
+.eimg img{
+    width: 100%;
+}
+
+.e-title h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.e-desc p {
+    font-size: 16px;
+}
+
+.e-more a {
+    background-color: #252564;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.e-more a:hover {
+    background-color: #fff;
+    color: #252564;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}

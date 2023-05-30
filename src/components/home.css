@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.thome h1{
+    font-family: 'Pangolin', cursive;
+    font-size: 28px;
+}
+
+.thome h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 230x;
+}
+
+.thome-menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.thome-menu ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    transition: 1s;
+}
+
+.thome-menu ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+label.plabel {
+    color: #000;
+    position: relative;
+}
